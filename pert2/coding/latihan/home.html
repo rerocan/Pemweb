@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - Bima Setya Ramdahan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">MyProfile</a>
+        <img
+          src="https://www.freelogovectors.net/wp-content/uploads/2023/01/valorant_logo-freelogovectors.net_.png"
+          alt="valo"
+          width="30"
+          height="24"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+          </ul>
+          <form class="d-flex ms-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Hero Section -->
+    <section class="text-center py-5 bg-white">
+      <div class="container">
+        <img
+          src="https://media-hosting.imagekit.io//9329e50d96794ebf/WIN_20240723_18_25_29_Pro.jpg?Expires=1837399000&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=TOxVbjZwo5DyafSfruGsD6gGU09fPDGLbgwApjEH7gF~t3QBCV2taROUvqsiBsCKX~pHre0-pSIySVp~pKEEBfkOYJYEzUFlwhlyvqux4A3oD0epx5Qupxgn7UdlRtZ2bycv7kmObS6Nhyn9-aVhLvKapTxrQu9W2oc7Lzhv~deCuhmhYIVdFlON~D73SW3LOV1bCxk6x09CHjYPUHiyVs3925XGZhzsyZcEfg5AlmMmutr4464m58dKgqz0v8Wr7Cvl-zJBbWSlP7dY7uSnFMIRbqQL6YQrd2MEaoSF3hXaOHrdVE3nc0Gk5BNOED6soI7oqvzmqLWGSXq-FmWx8w__"
+          alt="profile"
+          class="rounded-circle img-fluid mb-3"
+          style="width: 250px"
+        />
+        <h1 class="display-4 fw-bold">Hi, I'm Bima Setya Ramdahan</h1>
+        <p class="lead text-muted">
+          A passionate Web Developer & IT Enthusiast
+        </p>
+        <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>About Me</h2>
+            <p class="text-muted">
+              I'm currently studying Teknik Informatika and love to build
+              beautiful, fast, and accessible web experiences. I enjoy learning
+              new tech and applying it into real-world projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>My Projects</h2>
+          <p class="text-muted">A glimpse of what I've built</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Smart Lamp Security</h5>
+                <p class="card-text">
+                  An IoT-based security system using smart lighting and motion
+                  detection.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">Personal Portfolio</h5>
+                <p class="card-text">
+                  My own website to showcase who I am and what I do.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan lebih banyak card jika diperlukan -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>Contact Me</h2>
+          <p class="text-muted">Let’s work together or just say hello!</p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+      <p class="mb-0">&copy; 2024 Bima Setya Ramdahan | All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
