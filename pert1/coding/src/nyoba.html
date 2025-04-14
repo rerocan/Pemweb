@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #444;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #6a11cb;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      background: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #6a11cb;
+      border-bottom: 2px solid #6a11cb;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    /* About Section */
+    #about p {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    /* Projects Section */
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project h3 {
+      font-size: 1.5em;
+      color: #2575fc;
+      margin-bottom: 10px;
+    }
+
+    .project p {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+
+    /* Contact Section */
+    #contact ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #contact ul li {
+      margin: 15px 0;
+      font-size: 1.1em;
+    }
+
+    #contact ul li a {
+      color: #2575fc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    #contact ul li a:hover {
+      color: #6a11cb;
+    }
+
+    /* Social Media Icons */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      font-size: 1.5em;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #6a11cb;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #6a11cb;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      header p {
+        font-size: 1em;
+      }
+
+      nav a {
+        font-size: 1em;
+      }
+
+      h2 {
+        font-size: 1.8em;
+      }
+
+      .project h3 {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="https://media-hosting.imagekit.io//cf4b06dd0aca4dc7/WhatsApp%20Image%202024-06-30%20at%2011.41.21_6f982bc3.jpg?Expires=1837409612&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nWtTIwKgzC4mOLLsneAd2CvdcXUuxx-75aXGJ5N7YxTT2jdVjdCCo1NvA1p0VZJ7DK42piKDvboLT9MkcaWlzBx-pHmp3sH3w7ZjIIYicfgBi~wwL0JTLSqee5ry-n4-g7b5giT3qTlCi4vLDhImc~CR222RveMpJPGN3MOyg68vU25u8DnFOtratfu1r9U-gSfSg45aXCExySnqMaKbtQf-0t2XIhTYIa8ch-YYpCMEOMRV~GCaDf5dqlbguff59wYViCK4e1VJ-IkyP-iFbOeUT9M6~MzIPCAQAXowpaasWSGLL13PDwaER74nmVEfSKXVepfLhKkr18FC8TUd0g__" alt="Profile Picture" width="150" height="150">
+    <p>Web Developer | Designer | Tech Enthusiast</p>
+    <div class="social-icons">
+      <a href="https://github.com/rerocan" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a href="https://linkedin.com/in/namaprofil" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      <a href="https://twitter.com/BimaSetyaRamad1" target="_blank">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </a>
+      <a href="setyabima181@gmail.com">
+        <ion-icon name="mail-outline"></ion-icon>
+      </a>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">Tentang Saya</a>
+    <a href="#projects">Proyek</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>
+      Nama        : Bima Setya Ramadhan<br>
+      NIM         : 20230801175<br>
+      Jurusan     : Teknik Informatika<br>
+      Universitas : Esa Unggul<br>
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Proyek Saya</h2>
+    <div class="project">
+      <h3>Tag Table HTML</h3>
+      <p>Berikut adalah beberapa tag HTML yang sering digunakan dalam pengembangan web:</p>
+    
+      <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Tag HTML</th>
+                <th>Fungsi/Penjelasan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>&lt;!DOCTYPE html&gt;</code></td>
+                <td>Menentukan jenis dokumen sebagai HTML5.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;html&gt;</code></td>
+                <td>Elemen root dari dokumen HTML.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;head&gt;</code></td>
+                <td>Berisi metadata seperti judul halaman, charset, dan link ke file eksternal.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;title&gt;</code></td>
+                <td>Menentukan judul halaman yang tampil di tab browser.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;meta&gt;</code></td>
+                <td>Menyediakan informasi metadata seperti charset, deskripsi, dan kata kunci.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;link&gt;</code></td>
+                <td>Menghubungkan dokumen HTML dengan file eksternal (CSS, favicon, dll).</td>
+            </tr>
+            <tr>
+                <td><code>&lt;style&gt;</code></td>
+                <td>Menambahkan gaya (CSS) langsung di dalam dokumen HTML.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;body&gt;</code></td>
+                <td>Berisi konten utama yang ditampilkan di browser.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;header&gt;</code></td>
+                <td>Menentukan bagian header dari halaman atau bagian dokumen.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;nav&gt;</code></td>
+                <td>Digunakan untuk membungkus tautan navigasi.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;main&gt;</code></td>
+                <td>Menandai konten utama dari dokumen HTML.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;section&gt;</code></td>
+                <td>Menentukan bagian (section) dalam dokumen.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;article&gt;</code></td>
+                <td>Mendefinisikan konten independen seperti artikel atau post.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;footer&gt;</code></td>
+                <td>Menentukan footer dari halaman atau bagian dokumen.</td>
+            </tr>
+            <tr>
+                <td><code>&lt;h1&gt; hingga &lt;h6&gt;</code></td>
+                <td>Heading untuk judul dan subjudul, dari yang terbesar (&lt;h1&gt;) hingga terkecil (&lt;h6&gt;).</td>
+            </tr>
+            <tr>
+                <td><code>&lt;p&gt;</code></td>
+                <td>Menentukan paragraf teks.</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p>
+      Jika Anda tertarik untuk bekerja sama atau memiliki pertanyaan, silakan hubungi saya melalui:
+    </p>
+    <ul>
+      <li>Email: <a href="setyabima181@gmail.com">setyabima181@gamil.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/namaprofil" target="_blank">Profil LinkedIn</a></li>
+      <li>GitHub: <a href="https://github.com/rerocan" target="_blank">rerocan</a></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Portofolio Saya. Dibuat dengan ❤️ oleh <a href="#about">Bima Setya Ramadhan</a>.</p>
+  </footer>
+
+</body>
+</html>
