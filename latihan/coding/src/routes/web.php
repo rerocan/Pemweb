@@ -10,6 +10,7 @@ use App\Livewire\ShowContact;
 /* NOTE: Do Not Remove
 / Livewire asset handling if using sub folder in domain
 */
+
 Livewire::setUpdateRoute(function ($handle) {
     return Route::post(config('app.asset_prefix') . '/livewire/update', $handle);
 });
@@ -23,7 +24,7 @@ Livewire::setScriptRoute(function ($handle) {
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/',ShowHomePage::class)->name('home');
-Route::get('/portofolio',ShowPortofolio::class)->name('portofolio');
-Route::get('/about',ShowAbout::class)->name('about');
-Route::get('/contact ',ShowContact::class)->name('contact');
+Route::get('/', ShowHomePage::class)->name('home');
+Route::get('/portofolio', ShowPortofolio::class)->name('portofolio');
+Route::get('/about', ShowAbout::class)->name('about');
+Route::get('/contact', ShowContact::class)->name('contact');
