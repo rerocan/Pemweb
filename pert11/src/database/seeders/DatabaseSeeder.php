@@ -15,14 +15,16 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        $user = \App\Models\User::factory()->create([
-            'name' => 'Admin',
-            'email' => 'admin@admin.com',
-        ]);
+        // $user = \App\Models\User::factory()->create([
+        //     'name' => 'Admin',
+        //     'email' => 'admin@admin.com',
+        // ]);
 
-        $user->assignRole('super_admin');
+        // $user->assignRole('super_admin');
 
         $this->call([
+            RoleSeeder::class,
+            UserSeeder::class,
             TestSeeder::class,
             ProductSeeder::class,
         ]);
